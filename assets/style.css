@@ -69,15 +69,12 @@ li a:hover  {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    margin-right: 3%;
 }
 
 .card-blurb {
     width: 30%;
 }
 
-#bottom-nav  {
-    background-color: var(--dark); 
-    color: var(--light2);
-    height: 75px;
-    text-align: center;
- }
+
+
