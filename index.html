@@ -11,8 +11,8 @@
   <body>
     <header>
       <h1 id="heading">Erik J Hemsley</h1>
-      <nav id="top-nav">
-        <ul>
+      <nav>
+        <ul id="top-nav">
           <li><a href="#about-me">About Me</a></li>
           <li><a href="#works">Works</a></li>
           <li><a href="#contact-me">Contact Me</a></li>
@@ -21,8 +21,13 @@
       </nav>
     </header>
 
-    <section class="ab-me">
+    <section id="sidebar">
+      <aside><h2 class="works">Works</h2></aside>
+      <aside><h2 class="contact-me">Contact Me</h2></aside>
       <aside><h2 class="about-me">About Me</h2></aside>
+    </section>
+
+    <section class="ab-me">
       <article class="me">
         <p>Hello there! You've landed on Eriks portfolio page! Welcome</p>
         <p>
@@ -35,40 +40,42 @@
     </section>
 
     <section class="my-works">
-      <aside><h2 class="works">Works</h2></aside>
       <article class="works">
-        <h3 class="card-head">Mini Project 2</h3>
-        <p class="card-blurb">Advanced CSS Study Project.</p>
-        <img id="img-top"
-          src="assets/images/wk02-mp.png"
-          alt="a page showing different wats of hanging stylizing css"
-        />
-        <h3 class="card-head">Mini Project 1</h3>
-        <p class="card-blurb">Semantic HTML and Into CSS.</p>
-        <img class="img-g1"
-          src="assets/images/wk-01-mp.png"
-          alt="an page shwoing basic css styling"
-        />
-        <h3 class="card-head">Pre-Work Study</h3>
-        <p class="card-blurb">HTML, CSS, JavaScript and Git Study.</p>
-        <img  class="img-g1"
-          src="assets/images/pre-work-sg.png"
-          alt="a basic page with html, css and javascript"
-        />
-        <h3 class="card-head">Horiseon Challenge</h3>
-        <p class="card-blurb">
-          Fix the HTML to follow Semantic guidelines making sites more
-          accessible.
-        </p>
-        <img id="img-side"
-          src="assets/images/wk01-chall.png"
-          alt="a page showing the hoiseon semantic home"
-        />
+
+        <section class="column">
+          <h3 class="card-head">Mini Project 2</h3>
+          <p class="card-blurb">Advanced CSS Study Project.</p>
+          <img
+            id="img12"
+            src="assets/images/wk02-mp.png"
+            alt="a page showing different wats of hanging stylizing css"
+          />
+          <h3 class="card-head">Pre-Work</h3>
+          <p class="card-blurb">Basic site functionality shown</p>
+          <img
+            id="img12"
+            src="assets/images/pre-work-sg.png"
+            alt="a basic page with html, css and javascript"
+          />
+        </section>
+
+        <section id="horiseon">
+          <h3 class="card-head">Horiseon Challenge</h3>
+          <p class="card-blurb">
+            Fix the HTML to follow Semantic guidelines making sites more
+            accessible.
+          </p>
+          <img
+            id="img-side"
+            src="assets/images/wk01-chall.png"
+            alt="a page showing the hoiseon semantic home"
+          />
+        </section>
+
       </article>
     </section>
 
     <footer>
-      <aside><h2 class="contact-me">Contact Me</h2></aside>
       <nav id="bottom-nav">
         <ul>
           <li><a href="email">erik.j.hemsley@gmail.com</a></li>
