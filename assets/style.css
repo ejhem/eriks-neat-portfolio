@@ -2,7 +2,7 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-header {
+#topbtm {
   background-color: #666;
   display: flex;
   justify-content: space-between;
@@ -10,84 +10,50 @@ header {
   padding: 30px 5%;
 }
 
-nav ul {
+ul {
   list-style-type: none;
 }
 
-nav li {
+li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-nav li a {
+li a {
   color: white;
   text-decoration: none;
   transition: all 0.3s ease 0s;
   padding: 14px 16px;
 }
 
-nav li a:hover {
+li a:hover {
   background-color: #111;
-}
-
-#my-works img {
-  width: 30%;
-  border: solid 5px #666;
   border-radius: 15px;
 }
 
-#about {
-  margin-left: auto;
-  margin-right: auto;
+main img {
+  border: solid 2px #666;
+  border-radius: 15px;
   width: 50%;
 }
 
-.column-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5%;
-}
-
-#card3 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin: 5%;
-}
-
-#my-works img:hover {
-  border: solid 5px #111;
+main img:hover {
+  border: solid 2px #111;
   transition: all 0.3s ease 0s;
 }
 
-#my-contact {
-  background-color: #666;
+#about-me {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 5%;
+  margin: 5%;
 }
 
-#my-contact li {
-  display: inline-block;
-  padding: 0px 20px;
+#about  {
+  width: 75%;
+  margin-left: 5%;
 }
 
-#my-contact li a {
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s ease 0s;
-  padding: 14px 16px;
-}
-
-#my-contact li a:hover {
-  background-color: #111;
-}
-
-@media screen and (max-width: 768px) {
-  #my-works {
-      display: flex;
-      flex-direction: column;
-  }
+#my-works {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
 }
