@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="assets/style.css" />
     <title>EJH - Portfolio</title>
   </head>
-  <body>
-    <main>
 
-      <header id="topbtm">
-        <h1 id="title">Erik J Hemsley</h1>
-        <nav id="top-nav">
-          <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#works">My Works</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-          </ul>
-        </nav>
-      </header>
-  
+  <body>
+    <header>
+      <nav class="navbar">
+        
+      <h1 id="header1">Erik J Hemsley</h1>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#works">My Works</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+
       <section id="about-me">
-        <h3 class="side-bar">About Me</h2>
-        <p id="about">
+        <h2 class="side">About Me</h2>
+        <p id="abme">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
           similique assumenda hic maxime ipsa reprehenderit velit fugiat! Nemo
           soluta exercitationem tempore quod. Numquam placeat at non quibusdam
@@ -32,33 +33,44 @@
         </p>
       </section>
 
-      <section id="my-works">
-        <h3 class="side-bar" id="works">My Works</h2>
-        <figure id="card1" class="column-img">
-          <h2 id="c1head">Adv CSS</h2>
-          <img src="assets/images/wk02-mp.png" alt="image showing an app with verious styling code"/>
+      <section id="works">
+        <h2 class="side">My Works</h2>
+        <figure class="card card1">
+          <h3 class="card-header">Adv CSS</h3>
+          <img
+            src="assets/images/wk02-mp.png"
+            alt="image showing an app with verious styling code"
+          />
         </figure>
 
-        <figure id="card2" class="column-img">
-          <h3 id="c2head">Prework</h2>
-          <img src="assets/images/pre-work-sg.png" alt="image showing an app with basic html css and javascript along with a git blurb"/>
+        <figure class="card card2">
+          <h3 class="card-header">Prework</h3>
+          <img
+            src="assets/images/pre-work-sg.png"
+            alt="image showing an app with basic html css and javascript along with a git blurb"
+          />
         </figure>
 
-        <figure id="card3">
-          <h3 id="c3head">Horiseon</h2>
-          <img src="assets/images/wk01-chall.png" alt="image showing a landing page that was edited to follow symantic guidelines"/>
+        <figure class="card card3">
+          <h3 class="card-header">Horiseon</h3>
+          <img
+            src="assets/images/wk01-chall.png"
+            alt="image showing a landing page that was edited to follow symantic guidelines"
+          />
         </figure>
       </section>
-
-      <section id="topbtm">
-        <h3 class="side-bar" id="contact">Contact Me</h2>
-        <ul>
-          <li><a href="https://github.com/ejhem" target="_blank">GitHub</a></li>
-          <li><a href="n/a" target="_blank">5061234567</a></li>
-          <li><a href="n/a" target="_blank">erik.j.hemsley@gmail.com</a></li>
-        </ul>
-      </section>
-  
     </main>
+
+
+    <section id="contact">
+      <nav>
+      <ul class="navbar">
+        <h1 class="side">Contact Me</h2>
+        <li><a href="https://github.com/ejhem" target="_blank">GitHub</a></li>
+        <li><a href="n/a" target="_blank">5061234567</a></li>
+        <li><a href="n/a" target="_blank">erik.j.hemsley@gmail.com</a></li>
+      </ul>
+      
+    </section>
   </body>
 </html>
