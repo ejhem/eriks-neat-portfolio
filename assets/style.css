@@ -2,6 +2,10 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #topbtm {
   background-color: #666;
   display: flex;
@@ -31,29 +35,14 @@ li a:hover {
   border-radius: 15px;
 }
 
-main img {
-  border: solid 2px #666;
-  border-radius: 15px;
+main img  {
   width: 50%;
+  border: solid 2px #111;
+  border-radius: 15px;
 }
 
-main img:hover {
-  border: solid 2px #111;
+main img:hover  {
+  border: solid 2px #666;
   transition: all 0.3s ease 0s;
 }
 
-#about-me {
-  display: flex;
-  margin: 5%;
-}
-
-#about  {
-  width: 75%;
-  margin-left: 5%;
-}
-
-#my-works {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 5%;
-}
